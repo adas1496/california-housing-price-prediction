@@ -31,3 +31,45 @@ This project aims to predict the median house prices in California districts by 
 ---
 
 ## 🗂️ Project Structure
+california-housing-price-prediction/
+├── notebooks/
+│   ├── California Housing price prediction using linear regression.ipynb
+│   ├── California Housing price prediction using linear regression and feature engineering.ipynb
+│   ├── California Housing price prediction using random forest.ipynb
+│   └── California Housing price prediction using XGBoost.ipynb
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+
+
+
+---
+
+## 🛠️ How to Run
+
+1. Clone the repo
+   ```bash
+   git clone https://github.com/adas1496/california-housing-price-prediction.git
+
+2. Install Dependencies
+   pip install -r requirements.txt
+
+3. Run the Notebooks
+Open the notebooks/ folder and run the notebooks in this order:
+- California Housing price prediction using linear regression.ipynb
+- California Housing price prediction using linear regression and feature engineering.ipynb
+- California Housing price prediction using random forest.ipynb
+- California Housing price prediction using XGBoost.ipynb
+
+ Key Learnings
+- Feature Engineering played a major role in improving model accuracy
+- Tree-based ensemble models (Random Forest & XGBoost) significantly outperformed Linear Regression
+- Hyperparameter tuning helped boost the performance of XGBoost
+
+Future Improvements
+- Try LightGBM and CatBoost
+- More advanced feature engineering
+- Model deployment using Streamlit or FastAPI
+- Better handling of capped target values
+
